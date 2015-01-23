@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		18EA836E1A72AD5500FD6269 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EA836D1A72AD5500FD6269 /* main.m */; };
 		18EA83711A72AD5500FD6269 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EA83701A72AD5500FD6269 /* AppDelegate.m */; };
-		18EA83741A72AD5500FD6269 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EA83731A72AD5500FD6269 /* ViewController.m */; };
+		18EA83741A72AD5500FD6269 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EA83731A72AD5500FD6269 /* RootViewController.m */; };
 		18EA83771A72AD5500FD6269 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EA83751A72AD5500FD6269 /* Main.storyboard */; };
 		18EA83791A72AD5500FD6269 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18EA83781A72AD5500FD6269 /* Images.xcassets */; };
 		18EA837C1A72AD5500FD6269 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18EA837A1A72AD5500FD6269 /* LaunchScreen.xib */; };
 		18EA83881A72AD5500FD6269 /* GoodnightMoonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EA83871A72AD5500FD6269 /* GoodnightMoonTests.m */; };
+		18EA83961A72CAF500FD6269 /* ImageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EA83951A72CAF500FD6269 /* ImageCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +33,16 @@
 		18EA836D1A72AD5500FD6269 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18EA836F1A72AD5500FD6269 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18EA83701A72AD5500FD6269 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		18EA83721A72AD5500FD6269 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		18EA83731A72AD5500FD6269 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18EA83721A72AD5500FD6269 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		18EA83731A72AD5500FD6269 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		18EA83761A72AD5500FD6269 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18EA83781A72AD5500FD6269 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		18EA837B1A72AD5500FD6269 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		18EA83811A72AD5500FD6269 /* GoodnightMoonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoodnightMoonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18EA83861A72AD5500FD6269 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18EA83871A72AD5500FD6269 /* GoodnightMoonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoodnightMoonTests.m; sourceTree = "<group>"; };
+		18EA83941A72CAF500FD6269 /* ImageCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageCollectionViewCell.h; path = ../ImageCollectionViewCell.h; sourceTree = "<group>"; };
+		18EA83951A72CAF500FD6269 /* ImageCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImageCollectionViewCell.m; path = ../ImageCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +86,10 @@
 			children = (
 				18EA836F1A72AD5500FD6269 /* AppDelegate.h */,
 				18EA83701A72AD5500FD6269 /* AppDelegate.m */,
-				18EA83721A72AD5500FD6269 /* ViewController.h */,
-				18EA83731A72AD5500FD6269 /* ViewController.m */,
+				18EA83721A72AD5500FD6269 /* RootViewController.h */,
+				18EA83731A72AD5500FD6269 /* RootViewController.m */,
+				18EA83941A72CAF500FD6269 /* ImageCollectionViewCell.h */,
+				18EA83951A72CAF500FD6269 /* ImageCollectionViewCell.m */,
 				18EA83751A72AD5500FD6269 /* Main.storyboard */,
 				18EA83781A72AD5500FD6269 /* Images.xcassets */,
 				18EA837A1A72AD5500FD6269 /* LaunchScreen.xib */,
@@ -219,8 +224,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18EA83741A72AD5500FD6269 /* ViewController.m in Sources */,
+				18EA83741A72AD5500FD6269 /* RootViewController.m in Sources */,
 				18EA83711A72AD5500FD6269 /* AppDelegate.m in Sources */,
+				18EA83961A72CAF500FD6269 /* ImageCollectionViewCell.m in Sources */,
 				18EA836E1A72AD5500FD6269 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

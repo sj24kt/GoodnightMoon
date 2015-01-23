@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  ImageCollectionViewCell.m
 //  GoodnightMoon
 //
 //  Created by Sherrie Jones on 1/23/15.
 //  Copyright (c) 2015 Sherrie Jones. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "ImageCollectionViewCell.h"
 
-@interface ViewController : UIViewController
-
+@implementation ImageCollectionViewCell
 
 @end
-
